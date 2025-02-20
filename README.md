@@ -11,8 +11,8 @@ Setting up Java Minecraft Server on an ubuntu PC
 ```pkill -f server.jar```
 ```sudo java -jar server.jar --nogui &```
 ```echo 'eula=true' | sudo tee eula.txt```
-```sudo adduser --system --home /opt/minecraft minecraft\
-sudo groupadd minecraft\
+```sudo adduser --system --home /opt/minecraft minecraft \
+sudo groupadd minecraft \
 sudo adduser minecraft minecraft```
 ```sudo chown -R minecraft:minecraft /opt/minecraft```
 ```echo '[Unit]\
